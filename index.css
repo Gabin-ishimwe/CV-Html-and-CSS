@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.all {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 0rem 4rem 0rem;
+}
+
+.left-side {
+  line-height: 1.8rem;
+}
+
+.head {
+  margin-bottom: 4rem;
+}
+
+.profile-pic {
+  margin-bottom: 4rem;
+  height: 70px;
+  width: 70px;
+}
+
+/* .title-exp {
+  font-size: 15px;
+  color: cadetblue;
+} */
+
+.sub-section1 {
+  margin-bottom: 2rem;
+}
+
+.sub-section2 {
+  margin-bottom: 2rem;
+}
+
+.sub-section3 {
+  margin-bottom: 2rem;
+}
+
+.sub-section4 {
+  margin-bottom: 2rem;
+}
+
+.sub-section5 {
+  margin-bottom: 2rem;
+}
+
+.sub-section6 {
+  margin-bottom: 2rem;
+}
+
+.right-side {
+  line-height: 1.8rem;
+  color: cadetblue;
+}
+
+.contact {
+  margin-bottom: 2.5rem;
+}
+
+.skills {
+  margin-bottom: 2.5rem;
+}
+
+.tools {
+  margin-bottom: 2.5rem;
+}
+
+.other-skills {
+  margin-bottom: 2.5rem;
+}
+
+.languages {
+  margin-bottom: 2.5rem;
+}
+
+.title-exp,
+.education {
+  font-size: 15px;
+  color: cadetblue;
+}
+
+.job-duration,
+.school-duration {
+  font-size: 15px;
+  color: cadetblue;
+}
+
+.head:hover {
+  color: cadetblue;
+}
+
+@media (max-width: 980px) {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .all {
+    display: inline-block;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  .profile-pic {
+    position: relative;
+    top: 0;
+  }
+}
