@@ -7,7 +7,14 @@
   font-family: "Open Sans", sans-serif;
   display: flex;
   justify-content: space-around;
-  margin: 4rem 0rem 4rem 0rem;
+  margin: 0rem 0rem 4rem 0rem;
+}
+
+.top {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 0rem 0rem 0rem;
 }
 
 .left-side {
@@ -16,10 +23,20 @@
 
 .head {
   margin-bottom: 4rem;
+  margin-left: -8.2rem;
+}
+
+.name {
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 1.2rem;
 }
 
 .profile-pic {
   margin-bottom: 4rem;
+  margin-right: 0rem;
   height: 70px;
   width: 70px;
 }
@@ -94,21 +111,33 @@
   color: cadetblue;
 }
 
-@media (max-width: 980px) {
+/* @media (max-width: 980px) {
   body {
     font-size: 20px;
   }
-}
+} */
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .all {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-left: 3rem;
     margin-right: 3rem;
   }
 
+  .top {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
   .profile-pic {
-    position: relative;
-    top: 0;
+    width: 100px;
+    height: 100px;
+    margin-right: 3rem;
+  }
+
+  .head {
+    margin-left: 1rem;
   }
 }
